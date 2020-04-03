@@ -1,0 +1,11 @@
+<schemalist gettext-domain="gnome-shell-extensions">
+  <schema id="org.gnome.shell.extensions.gnordvpn-local"
+      path="/org/gnome/shell/extensions/gnordvpn-local/">
+
+    <key type="i" name="vpn-indicator">
+        <default>0</default>
+        <summary>What to display in top bar</summary>
+        <range min="0" max="2"/>
+    </key>
+  </schema>
+</schemalist>
