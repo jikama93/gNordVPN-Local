@@ -312,7 +312,7 @@ const VpnIndicator = GObject.registerClass({
         disable() {
             this._clearTimeout();
             
-            this._commonFavorite.disable();
+//            this._commonFavorite.disable();
             this._commonFavorite.isAdded = false;
             this._countryMenu.disable();
             this._countryMenu.isAdded = false;
